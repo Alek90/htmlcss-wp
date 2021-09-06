@@ -64,6 +64,10 @@ main > section{
     font-size: 1.85rem;
     font-weight: bolder;
 }
+
+.top{
+    padding: 2rem 0;
+}
  
 .title{
     font-size: 38px;
@@ -82,18 +86,22 @@ main > section{
 }
 
 .ext{
-    width: 25%;
-    padding: 1rem 0;
+    width: 20%;
+    padding: 1.5rem 0;
     
 }
 
 .center{
-    width: 50%;
-    padding: 1rem;
+    width: 60%;
+    padding: 1.5rem;
 }
 
 aside{
     float: left;
+}
+
+h4{
+    margin-bottom: 1rem;
 }
 
 /* footer */
@@ -124,12 +132,12 @@ footer{
  height: 75px;
 }
 
-.debug .ext{
+/* .debug .ext */{
     /* background-color: limegreen; */
     height: 300px;
 }
 
-.debug .center{
+/* .debug .center */{
     /* background-color: steelblue; */
     height: 300px;
 } 
