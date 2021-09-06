@@ -28,7 +28,7 @@ nav{
 ul.menù li{
     display: inline;
     margin-right: 0.75rem;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 /* main */
@@ -66,6 +66,12 @@ main > section{
 }
  
 .title{
+    font-size: 38px;
+}
+
+.subtitle{
+    color: gray;
+    font-size: ;
 }
 
 .clearfix{
@@ -109,11 +115,11 @@ footer{
     height: 361px;
 }
 
-.debug .clearfix{
+/* .debug .clearfix{ */
     background-color: cornflowerblue;
 }
 
-.debug .title{
+/* .debug .title */{
 /*     background-color: yellow;*/   
  height: 75px;
 }
