@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* testata */
+
+header{
+    width: 621px;
+    margin: 0 auto;
+}
+
+/* main */
+   
+main > section{
+    margin: 0 auto;
+}
+
+.special{
+    width: 621px;
+    
+}
+
+.title{
+    width: 621px;
+    
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+aside:nth-child(odd){
+    width: 126px;
+    
+}
+
+aside:nth-child(even){
+    width: 355px;
+    margin: 0 7px;
+}
+
+aside{
+    float: left;
+}
+
+/* footer */
+
+footer{
+    width: 621px;
+    margin: 0 auto;
+}
+
+    
+
+/* Blocchi colore */
+.debug .header{
+    background-color: red;
+    height: 90px;
+}
+
+.debug .special{
+    background-color: orange;
+    height: 261px;
+}
+
+.debug .title{
+    background-color: yellow;
+    height: 75px;
+}
+
+.debug aside:nth-child(odd){
+    background-color: limegreen;
+    height: 300px;
+}
+
+.debug aside:nth-child(even){
+    background-color: steelblue;
+    height: 300px;
+} 
+
+.debug footer{
+    background-color: purple;
+    height: 32px;
+}
