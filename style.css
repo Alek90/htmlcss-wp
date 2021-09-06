@@ -12,6 +12,17 @@ body{
 }
 
 
+/* regole base immagini di sfondo */
+
+.img{
+    background-color: rgb(210, 210, 210);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    border-radius: 9px;
+}
+
+
 /* testata */
 
 .logo{
@@ -28,8 +39,12 @@ ul.menù li{
     margin-right: 0.75rem;
 }
 
+/* /testata */
+
 
 /* main */
+
+/* section special img */
    
 main > section{
     width: 100%;
@@ -37,18 +52,11 @@ main > section{
 
 .special{
     margin: 1rem 0;
-}
-
-.special{
     height: 500px;
-    background-color: rgb(210, 210, 210);
-    background-blend-mode: multiply;
     background-image: url(./img/banner.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 9px;
     position: relative;
 }
+
 
 .manifesto{
     color: white;
@@ -60,8 +68,9 @@ main > section{
 
 .articolo{
     font-size: 1.85rem;
-    /* font-weight: bolder; */
 }
+
+/* section clearfix */
 
 .top{
     padding: 1.8rem 0 1.2rem;
@@ -103,13 +112,8 @@ h4{
     font-weight: 400;
 }
 
-.img{
+aside > .img{
     height: 204px;
-    background-color: rgb(210, 210, 210);
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: multiply;
-    border-radius: 9px;
 }
 
 .img.left{
@@ -128,10 +132,13 @@ aside p{
     color: gray;
 }
 
+/* /main */
+
+
 /* footer */
 
 footer{
-    margin: 0.5rem auto 0;
+    margin: 0.5rem auto;
     text-align: center;
 }
 
@@ -140,5 +147,4 @@ footer{
     font-size: 1.2rem;
 }
 
-    
-
+/* /footer */
