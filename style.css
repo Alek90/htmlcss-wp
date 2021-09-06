@@ -73,14 +73,14 @@ footer{
     
 
 /* Blocchi colore */
-/* .debug .header{ */
+/* .debug .header */{
     background-color: red;
     height: 90px;
 }
 
 .debug .special{
     background-color: orange;
-    height: 261px;
+    height: 361px;
 }
 
 .debug .clearfix{
