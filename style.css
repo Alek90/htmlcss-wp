@@ -10,11 +10,9 @@ body{
     width: 1176px;
     margin: auto;
 }
-/* testata */
 
-header{
-    
-}
+
+/* testata */
 
 .logo{
     width: 165px;
@@ -28,8 +26,8 @@ nav{
 ul.menù li{
     display: inline;
     margin-right: 0.75rem;
-    font-weight: bold;
 }
+
 
 /* main */
    
@@ -62,20 +60,20 @@ main > section{
 
 .articolo{
     font-size: 1.85rem;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
 
 .top{
-    padding: 2rem 0;
+    padding: 1.8rem 0 1.2rem;
 }
  
 .title{
-    font-size: 38px;
+    font-size: 40px;
+    font-weight: bolder;
 }
 
 .subtitle{
     color: gray;
-    font-size: ;
 }
 
 .clearfix{
@@ -101,48 +99,46 @@ aside{
 }
 
 h4{
-    margin-bottom: 1rem;
+    margin: 1rem 0 0.75rem;
+    font-weight: 400;
+}
+
+.img{
+    height: 204px;
+    background-color: rgb(210, 210, 210);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-radius: 9px;
+}
+
+.img.left{
+    background-image: url(./img/img-1.jpg);
+}
+
+.img.cnt{
+    background-image: url(./img/banner-2.jpg);
+}
+
+.img.right{
+    background-image: url(./img/img-3.jpg);
+}
+
+aside p{
+    color: gray;
 }
 
 /* footer */
 
 footer{
     margin: 0.5rem auto 0;
+    text-align: center;
+}
+
+.heart{
+    color: red;
+    font-size: 1.2rem;
 }
 
     
 
-/* Blocchi colore */
-/* .debug .header */{
-    background-color: red;
-    height: 90px;
-}
-
-/* .debug .special */{
-    background-color: orange;
-    height: 361px;
-}
-
-/* .debug .clearfix{ */
-    background-color: cornflowerblue;
-}
-
-/* .debug .title */{
-/*     background-color: yellow;*/   
- height: 75px;
-}
-
-/* .debug .ext */{
-    /* background-color: limegreen; */
-    height: 300px;
-}
-
-/* .debug .center */{
-    /* background-color: steelblue; */
-    height: 300px;
-} 
-
-.debug footer{
-    background-color: purple;
-    height: 32px;
-}
