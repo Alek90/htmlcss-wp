@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0rem;
 }
 
 body{
@@ -26,7 +27,8 @@ nav{
 
 ul.menù li{
     display: inline;
-    margin-right: 1rem;
+    margin-right: 0.75rem;
+    font-weight: bolder;
 }
 
 /* main */
@@ -39,6 +41,30 @@ main > section{
     margin: 1rem 0;
 }
 
+.special{
+    height: 500px;
+    background-color: rgb(210, 210, 210);
+    background-blend-mode: multiply;
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 9px;
+    position: relative;
+}
+
+.manifesto{
+    color: white;
+    width: 580px;
+    position: absolute;
+    left: 52px;
+    bottom: 70px;
+}
+
+.articolo{
+    font-size: 1.85rem;
+    font-weight: bolder;
+}
+ 
 .title{
 }
 
@@ -78,7 +104,7 @@ footer{
     height: 90px;
 }
 
-.debug .special{
+/* .debug .special */{
     background-color: orange;
     height: 361px;
 }
